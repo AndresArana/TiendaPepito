@@ -9,6 +9,7 @@ dotenv.config();
 const app = express();
 
 app.use(express.json());
+//reglas de conxion entre front y back
 app.use(cors());
 app.use("/api/product", product)
 
